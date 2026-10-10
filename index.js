@@ -3,7 +3,7 @@ const app = express();
 const PORT = process.env.PORT || 3000;
 
 app.get('/', (req, res) => {
-  res.send('welcome to SADHIX INSTITUTE and RAZA INSTITUTE application ');
+  res.send('welcome to SADHIX INSTITUTE and RAZA INSTITUTE application and ZAIN');
 });
 
 app.get('/health', (req, res) => {
